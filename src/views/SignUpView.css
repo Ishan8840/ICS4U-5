@@ -1,13 +1,22 @@
+.logo-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 20px 20px;
+}
+
+
 .sign-up-page {
-  min-height: 100vh;
-  background-image: url(/src/imgs/background.jpg);
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/imgs/background.jpg);
+  background-image: opacity;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .sign-up {

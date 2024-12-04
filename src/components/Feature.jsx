@@ -24,7 +24,6 @@ function Feature() {
         randomMovies.push(randomMovie);
         availableMovies.splice(randomIndex, 1);
       }
-
       setMovies(randomMovies);
     })();
   }, []);
