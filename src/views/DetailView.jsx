@@ -21,7 +21,7 @@ function DetailView() {
       setTrailers(videosResponse.data.results.filter((video) => video.type === "Trailer"));
     }
     fetchMovieDetails();
-  }, [id]);
+  }, []);
 
   return (
     <div className="detail-view-container">
