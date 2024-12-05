@@ -1,4 +1,3 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 import Genres from "../components/Genres";
 import Header from "../components/Header.jsx";
